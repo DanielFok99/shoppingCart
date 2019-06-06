@@ -1,6 +1,11 @@
 <?php 
 include("config.php");
 session_start();
+
+class test{
+
+}
+
 $user=$_SESSION['user'];
 
 if(isset($_POST['userID'])){
@@ -33,7 +38,7 @@ if ($result->num_rows > 0) {
 
 ?>
 
-<!doctype html>
+
 <html lang="en">
   <head>
     <!-- Required meta tags -->
